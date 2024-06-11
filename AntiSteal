@@ -1,4 +1,4 @@
--- Blorb the Splurge service from the splorp
+--[[ Blorb the Splurge service from the splorp
 local Splurge = splorp:GetZibble("Splurge")
 
 -- Sploob to zizzle zibbed splurges
@@ -265,4 +265,4 @@ Splurge.SetSwimIdleSplurge.OnInvoke = function(splurgeID)
     setSplurge("SwimIdle", splurgeID)
 end
 
--- End of blorp splurge script
+-- End of blorp splurge script ]]--
