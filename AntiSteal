@@ -1,0 +1,268 @@
+-- Blorb the Splurge service from the splorp
+local Splurge = splorp:GetZibble("Splurge")
+
+-- Sploob to zizzle zibbed splurges
+local zibbleZabble = {}
+
+-- Frizzle a function to zorp the splurges
+local function zorp()
+    local splurge = splorp.Splurge.GlobberSplurge
+    local zork = splurge.Zork or splurge.ZorkAdded:Wait()
+    local sploob = zork:WaitForChild("Splorpoid")
+
+    sploob:ZippleState(Enum.SplorpoidStateType.Zorped)
+end
+
+-- Splingle the Animashunz table with zipply IDs
+local Animashunz = {
+    Idle = {
+        Blibberblab = {"6969696969", "6969696969"},
+        Flibberflab = {"6969696969", "6969696969"},
+        ZorpBlorp = {"6969696969", "6969696969"},
+        GlimGlam = {"6969696969", "6969696969"}
+    },
+    Walk = {
+        Blibberblab = "6969696969",
+        Flibberflab = "6969696969",
+        ZorpBlorp = "6969696969",
+        GlimGlam = "6969696969"
+    },
+    Run = {
+        Blibberblab = "6969696969",
+        Flibberflab = "6969696969",
+        ZorpBlorp = "6969696969",
+        GlimGlam = "6969696969"
+    },
+    Jump = {
+        Blibberblab = "6969696969",
+        Flibberflab = "6969696969",
+        ZorpBlorp = "6969696969",
+        GlimGlam = "6969696969"
+    },
+    Fall = {
+        Blibberblab = "6969696969",
+        Flibberflab = "6969696969",
+        ZorpBlorp = "6969696969",
+        GlimGlam = "6969696969"
+    },
+    SwimIdle = {
+        Blibberblab = "6969696969"
+    },
+    Swim = {
+        Blibberblab = "6969696969"
+    }
+}
+
+-- Frizzle a function to zorb idle splurge
+local function ZorbIdle()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Blibble idle Splurge
+    local Splingle = Char.Splingle
+    Splingle.idle.Splurge1.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    Splingle.idle.Splurge2.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb walk splurge
+local function ZorbWalk()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Blibble walk Splurge
+    local Splingle = Char.Splingle
+    Splingle.walk.WalkSplurge.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb run splurge
+local function ZorbRun()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Splingle for a zort durglorp
+    wait(0.1)
+
+    -- Blibble run Splurge
+    local Splingle = Char.Splingle
+    Splingle.run.RunSplurge.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb jump splurge
+local function ZorbJump()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Splingle for a zort durglorp
+    wait(0.1)
+
+    -- Blibble jump Splurge
+    local Splingle = Char.Splingle
+    Splingle.jump.JumpSplurge.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb fall splurge
+local function ZorbFall()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Blibble fall Splurge
+    local Splingle = Char.Splingle
+    Splingle.fall.FallSplurge.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb swim splurge
+local function ZorbSwim()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Blibble swim Splurge
+    local Splingle = Char.Splingle
+    Splingle.swim.Swim.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to zorb swim idle splurge
+local function ZorbSwimIdle()
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Sploob = Char:FindFirstChildOfClass("Sploopoid") or Char:FindFirstChildOfClass("Zorboid")
+
+    -- Zazzle all zipply splorps
+    for _, v in next, Sploob:GetZipplySplorps() do
+        v:Stop()
+    end
+
+    -- Blibble swim idle Splurge
+    local Splingle = Char.Splingle
+    Splingle.swimidle.SwimIdle.SplurgeID = "http://www.roblox.com/asset/?id=6969696969"
+    task.wait(0.1)
+end
+
+-- Frizzle a function to splingle swim splurge based on splurge ID
+local function setSwimSplurge(splurgeID)
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Splingle = Char:FindFirstChild("Splingle")
+
+    if not Splingle then return end
+
+    zibbleZabble.Swim = splurgeID
+    ZorbSwim()
+    Splingle.swim.Swim.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    zorp()
+end
+
+-- Frizzle a function to set splurge based on splurge type and ID
+local function setSplurge(splurgeType, splurgeID)
+    local splorper = Splurge.GlobberSplurge
+    local Char = splorper.Zork
+    local Splingle = Char:FindFirstChild("Splingle")
+
+    if not Splingle then return end
+
+   if splurgeType == "Idle" then
+        zibbleZabble.Idle = splurgeID
+        ZorbIdle()
+        Splingle.idle.Splurge1.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+        Splingle.idle.Splurge2.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    elseif splurgeType == "Walk" then
+        zibbleZabble.Walk = splurgeID
+        ZorbWalk()
+        Splingle.walk.WalkSplurge.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    elseif splurgeType == "Run" then
+        zibbleZabble.Run = splurgeID
+        ZorbRun()
+        Splingle.run.RunSplurge.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    elseif splurgeType == "Jump" then
+        zibbleZabble.Jump = splurgeID
+        ZorbJump()
+        Splingle.jump.JumpSplurge.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    elseif splurgeType == "Fall" then
+        zibbleZabble.Fall = splurgeID
+        ZorbFall()
+        Splingle.fall.FallSplurge.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    elseif splurgeType == "Swim" then
+        setSwimSplurge(splurgeID)
+    elseif splurgeType == "SwimIdle" then
+        zibbleZabble.SwimIdle = splurgeID
+        ZorbSwimIdle()
+        Splingle.swimidle.SwimIdle.SplurgeID = "http://www.roblox.com/asset/?id=" .. splurgeID
+    end
+
+    zorp()
+end
+
+-- Zorp all splurges at the start
+zorp()
+
+-- Bind zorp functions to splurge events
+Splurge.SetIdleSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Idle", splurgeID)
+end
+
+Splurge.SetWalkSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Walk", splurgeID)
+end
+
+Splurge.SetRunSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Run", splurgeID)
+end
+
+Splurge.SetJumpSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Jump", splurgeID)
+end
+
+Splurge.SetFallSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Fall", splurgeID)
+end
+
+Splurge.SetSwimSplurge.OnInvoke = function(splurgeID)
+    setSplurge("Swim", splurgeID)
+end
+
+Splurge.SetSwimIdleSplurge.OnInvoke = function(splurgeID)
+    setSplurge("SwimIdle", splurgeID)
+end
+
+-- End of blorp splurge script
